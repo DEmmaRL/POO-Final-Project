@@ -43,7 +43,7 @@
 pantalla.mostrarMensaje( "\nEscriba su numero de cuenta: " );
 int numeroCuenta = teclado.obtenerEntrada(); // introduce el número de cuenta
 pantalla.mostrarMensaje( "\nEscriba su NIP: " ); // pide el NIP
-int nip = teclado.obtenerEntrada(); // introduce el NIP
+int nip = teclado.obtenerNIP(); // introduce el NIP
 
 // establece usuarioAutenticado con el valor bool devuelto por la base de datos
 usuarioAutenticado =

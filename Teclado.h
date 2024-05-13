@@ -7,6 +7,7 @@ class Teclado
 {
 public:
 int obtenerEntrada() const; // devuelve un valor entero introducido por el usuario
+int obtenerNIP() const; // devuelve un valor entero introducido por el usuario, enmascara con getch la entrada
 }; // fin de la clase Teclado
 
 #endif // TECLADO_H
